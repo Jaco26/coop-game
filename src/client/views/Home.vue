@@ -52,8 +52,8 @@ export default defineComponent({
           a.self
             ? -1
             : b.self
-            ? 1
-            : a.username.charCodeAt(0) - b.username.charCodeAt(0)
+              ? 1
+              : a.username.charCodeAt(0) - b.username.charCodeAt(0)
         );
     });
 
